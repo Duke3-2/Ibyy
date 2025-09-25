@@ -1,0 +1,44 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Business Card</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+
+<body>
+<div class="business-card">
+  <img class="profile-image" src="https://s5-hzde.freeconvert.com/task/68d5836d507dedd6566f62a1/Screenshot202025-09-2520100809.png" alt="AmaowohDesigns">
+  <p class="full-name">Obongibiangake Amaowoh</p>
+  <p class="designation">Architectural Designer</p>
+  <p class="company">Amaowoh Design Studio</p>
+  <hr>
+  <p>Oamaowoh@gmail.com</p>
+  <p>(+234) 902-161-8576</p>
+  <a class="portfolio-link" href="http://wa.me/447519007804">Portfolio</a>
+  <hr>
+  <div class="social-media">
+<h2>Connect with me</h2>
+      <a href="https://x.com/t1hat_one_guy?s=11">Twitter</a>
+      <a href="https://x.com/t1hat_one_guy?s=11">LinkedIn</a>
+      <a href="http://wa.me/447519007804">GitHub</a>
+      </div>
+</div>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body{background-color:rosybrown;font-family:Arial,sans-serif;}
+p{margin-top:5px;margin-bottom:5px;}
+.business-card{width:300px;background-color:beige;padding:20px;margin:100px;text-align:center;font-size:16px;margin-left:auto;margin-right:auto;}
+.profile-image{max-width:100%}
+a{text-decoration:none;}
+
+** end of styles.css **
+
